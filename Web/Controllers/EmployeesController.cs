@@ -17,7 +17,6 @@ namespace Web.Controllers
 {
     public class EmployeesController : Controller
     {
-        private AppDbContext db = new AppDbContext();
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IEmployeeImportService _employeeImportService;
