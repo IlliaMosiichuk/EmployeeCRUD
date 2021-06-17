@@ -213,6 +213,7 @@
     <Content Include="Views\Employees\Index.cshtml" />
     <Content Include="Views\Employees\_Manage.cshtml" />
     <Content Include="Views\Employees\Import.cshtml" />
+    <Content Include="test.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

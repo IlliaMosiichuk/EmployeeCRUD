@@ -1,0 +1,42 @@
+[
+  //valid
+  {
+    "number": "2212",
+    "firstName": "FName221",
+    "lastName": "LName221",
+    "middleName": "MName221",
+    "gender": "Male",
+    "birthDate": "1990-01-01T00:00:00",
+    "isExternal": false
+  },
+  //invalid  (not unique number)
+  {
+    "number": "2212",
+    "firstName": "FName221",
+    "lastName": "LName221",
+    "middleName": "MName221",
+    "gender": "Male",
+    "birthDate": "1997-01-01T00:00:00",
+    "isExternal": false
+  },
+  //invalid (external + number)
+  {
+    "number": "400",
+    "firstName": "FName221",
+    "lastName": "LName221",
+    "middleName": "MName221",
+    "gender": "Male",
+    "birthDate": "1995-01-01T00:00:00",
+    "isExternal": true
+  },
+  //invalid (not external + no number)
+  {
+    "number": null,
+    "firstName": "FName221",
+    "lastName": "LName221",
+    "middleName": "MName221",
+    "gender": "Male",
+    "birthDate": "1995-01-01T00:00:00",
+    "isExternal": false
+  }
+]
